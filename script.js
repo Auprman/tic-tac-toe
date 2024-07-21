@@ -10,7 +10,7 @@ let fields = [
     null,
     'cross',
     'circle',
-    null,
+    'cross',
 ];
 
 // Funktion, um die Tabelle zu rendern
@@ -33,5 +33,10 @@ function render() {
     content.innerHTML = tableHtml;
 }
 
+
+function init(){
+    render();
+}
+
 // Aufruf der render-Funktion, um die Tabelle darzustellen
-render();
+
