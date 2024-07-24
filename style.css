@@ -36,11 +36,11 @@ table th {
 
 /* Optional: Stil für die Zellen */
 table td {
-    background-color: #555; /* Optionaler Hintergrund für die Zellen */
+    background-color: #323232; /* Optionaler Hintergrund für die Zellen */
     color: white; /* Schriftfarbe für die Zellen */
     padding: 10px; /* Polsterung für die Zellen */
-    width: 60px; /* Festgelegte Breite */
-    height: 60px; /* Festgelegte Höhe */
+    width: 100px; /* Festgelegte Breite */
+    height: 100px; /* Festgelegte Höhe */
     font-size: 2em; /* Schriftgröße */
 }
 
@@ -63,4 +63,8 @@ table tr td:last-child {
 h1{
     text-align: center;
     color: white;
+}
+table td:hover {
+    background-color: rgba(255, 255, 255, 0.246);
+    cursor: pointer;
 }
